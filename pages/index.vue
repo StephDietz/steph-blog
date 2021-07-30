@@ -56,9 +56,11 @@
         <p class="mb-2 text-lg">Recents</p>
         <div class="boxShadow w-8 h-1 bg-black ml-1"></div>
       </div>
-      <div class="flex items-center items-wrap">
-        <div v-for="(recent, index) in recents" :key="index" :class="`${index % 2 ? 'md:mx-6' : 'md:mx-1 lg:mx-0'} w-full md:w-1/2 md:w-1/3 my-6 bg-gray-50 hover:shadow-lg shadow-md`">
-          <contentCard :item="recent" :index="index" />
+      <div class="grid gap-5 grid-cols-1 md:grid-cols-3">
+        <div v-for="(recent, index) in recents" :key="index" class="">
+          <div class="bg-gray-50 hover:shadow-lg shadow-md w-full">
+            <contentCard :item="recent" :index="index" class="w-full"/>
+          </div>
         </div>
       </div>
     </div>
