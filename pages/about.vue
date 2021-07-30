@@ -14,7 +14,7 @@
         Hey 👋, I'm Steph. I'm a self-taught developer based out of Dallas, Tx.
       </div>
       <div class="mb-4">
-        I'm a Baylor grad with a BS in Biochem, but my interest in solving problemas and creating brought lead me to become a software developer. I work with startups to help create beutiful interfaces, and recently began creating content to expand my knowledge and help build yours!
+        I'm a Baylor grad with a BS in Biochem, but my interest in solving problemas and creating lead me to become a software developer. I work with startups to help create beutiful interfaces, and recently began creating content to expand my knowledge and help build yours!
       </div>
       <div class="">
         I'm always trying to expand my skillset, and beleive the best way to learn is through doing and teching. Follow me on my journey as I share all the tricks I pick up along the way!
