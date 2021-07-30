@@ -1,0 +1,20 @@
+{
+  "name": "steph-blog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7"
+  },
+  "devDependencies": {
+    "@nuxt/image": "^0.5.0",
+    "@nuxtjs/tailwindcss": "^4.2.0",
+    "postcss": "^8.3.5"
+  }
+}
