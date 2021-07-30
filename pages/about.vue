@@ -11,13 +11,13 @@
     <div class="md:w-2/3 w-full">
       <h1 class="d3 text-4xl mb-12">About Me</h1>
       <div class="mb-4">
-        Hey 👋, I'm Steph. I'm a self-taught developer based out of Dallas, Tx.
+        Hey 👋, I'm Steph, a self-taught developer based out of Dallas, Tx.
       </div>
       <div class="mb-4">
-        I'm a Baylor grad with a BS in Biochem, but my interest in solving problemas and creating lead me to become a software developer. I work with startups to help create beutiful interfaces, and recently began creating content to expand my knowledge and help build yours!
+        I'm a Baylor grad with a BS in Biochem, but my interest in solving problemas and creating lead me to become a software developer. I work with startups to help create beautiful interfaces, and recently began creating content to expand my knowledge and help build yours!
       </div>
       <div class="">
-        I'm always trying to expand my skillset, and beleive the best way to learn is through doing and teching. Follow me on my journey as I share all the tricks I pick up along the way!
+        I'm always trying to expand my skillset, and beleive the best way to learn is through doing and teaching. Follow me on my journey as I share all the tips and tricks I pick up along the way!
       </div>
     </div>
     <!-- <div class="w-1/2 pl-8">
