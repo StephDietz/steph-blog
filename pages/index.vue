@@ -41,17 +41,13 @@
         </div>
       </div>
       <div class="flex-none mt-8">
-        <nuxt-img
-          src="/profile.jpg"
-          alt="profilePic"
-          sizes="xl:300px lg:200px md:300px sm:200px xs:200px"
-          style="border-radius: 999px"/>
-        <!-- <div class="relative w-48 h-48 mt-10 md:mt-0 overflow-hidden" style="border-radius: 999px;">
-          <img
+        <div class="relative w-48 h-48 mt-10 md:mt-0 overflow-hidden" style="border-radius: 999px;">
+          <nuxt-img
             src="/profile.jpg"
             alt="profilePic"
-            class="absolute h-full w-auto" />
-        </div> -->
+            sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+            class="absolute"/>
+        </div>
       </div>
     </div>
 
