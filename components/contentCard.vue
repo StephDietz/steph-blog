@@ -1,12 +1,12 @@
 <template lang="html">
   <a :href="`${item.link}`" target="_blank">
     <div>
-      <div class="block overflow-hidden relative w-full h-40">
-        <nuxt-img
+      <div class="block overflow-hidden relative w-full h-40 bg-center bg-cover" :style="`background-image: url(${item.src})`">
+        <!-- <nuxt-img
           :src="`${item.src}`"
           sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
           alt="blogImage"
-          class="img rounded z-10"/>
+          class="img rounded z-10"/> -->
       </div>
       <div class="p-4">
         <h1 class="clamp-2 font-bold h-10 mb-1 leading-tight"> {{ item.title }} </h1>
