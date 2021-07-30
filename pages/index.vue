@@ -41,12 +41,12 @@
         </div>
       </div>
       <div class="flex-none mt-8">
-        <div class="relative w-48 h-48 mt-10 md:mt-0 overflow-hidden" style="border-radius: 999px;">
-          <nuxt-img
+        <div class="bg-center bg-cover w-48 h-48 mt-10 md:mt-0" style="border-radius: 999px; background-image: url(/profile.jpg)">
+          <!-- <nuxt-img
             src="/profile.jpg"
             alt="profilePic"
             sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
-            class="absolute"/>
+            class="absolute"/> -->
         </div>
       </div>
     </div>
