@@ -15,6 +15,7 @@ export default {
     return {
       blogs: [
         {src: '/vercel.png', title: 'Deploy a Vue, Vite, and Tailwind project to Vercel', description: 'Learn how to set up your Vue, Vite, and Tailwind project and deploy it instantly on Vercel.', link: 'https://vercel.com/guides/vue-vite-tailwind', datePublished: 'July 11th 2021'},
+        {src: '/nuxt-img.png', title: 'Optimize your images with Nuxt Image', description: 'Nuxt image handles the hard parts of transforming and optimizing assets through an intuitive interface. Let\'s learn how to use it!', link: '/blog-nuxt-image', datePublished: 'Aug 2nd 2021'},
       ]
     }
   }
