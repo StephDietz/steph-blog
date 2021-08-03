@@ -1,8 +1,8 @@
 <template lang="html">
-  <div class="leading-relaxed px-12 md:px-40 lg:px-60 mt-16 md:mt-24 pb-16 md:pb-24">
+  <div class="body leading-relaxed pt-16 pb-16 md:pb-24">
     <div class="w-full flex flex-col items-center justify-center border-b mb-8">
       <h1 class="font-bold text-5xl text-center mb-6">Optimize your images with Nuxt Image</h1>
-      <p class="md:w-2/3 pb-16 md:pb-24 text-center">Nuxt image handles the hard parts of optimizing assets through an intuitive interface. Let's learn how to use it!</p>
+      <p class="md:w-2/3 pb-16 text-center">Nuxt image handles the hard parts of optimizing assets through an intuitive interface. Let's learn how to use it!</p>
     </div>
     <div class="w-full p-3 border rounded mb-8">
       Demo Repo: <a href="https://github.com/StephDietz/nuxt-img" target="_blank" class="md:ml-4 text-blue-500 underline">https://github.com/StephDietz/nuxt-img</a>
@@ -23,7 +23,7 @@
     </div>
     <h2 class="font-bold text-xl mb-6">The Problem</h2>
     <div class="mb-6">
-      Users and companies alike prefer faster sites. In fact, if a page takes longer than three seconds to load, the site will likely be abandoned. And, since people like faster loading pages, Google does as well. One of the main culprits of a slow-loading website are non-optimized images. By optimizing our images we will not only increase and maintain traffic, but will also get better search engine rankings.
+      Users and companies alike prefer faster sites. In fact, if a page takes longer than <a class="text-blue-500 underline" href="https://www.akamai.com/uk/en/about/news/press/2009-press/akamai-reveals-2-seconds-as-the-new-threshold-of-acceptability-for-ecommerce-web-page-response-times.jsp" target="_blank">three seconds</a> to load, the site will likely be abandoned. And, since people like faster loading pages, Google does as well. One of the main culprits of a slow-loading website are non-optimized images. By optimizing our images we will not only increase and maintain traffic, but will also get better search engine rankings.
     </div>
     <div class="mb-6">
       Let’s say we are given an image to display straight from the photographer unoptimized. For example, 5mb in size and 4,000 x 6,000 pixels. Untouched, this image would have a dramatic impact on the speed of our site, as it exceeds our needs greatly. Let’s assume the maximum size we need the image to be is 2,000px, however we want to optimize the image at the standard breakpoints for smaller devices (i.e., 320px, 640px, 768px, 1024px). To achieve this, we would have to generate five different images as well as write the html with all the responsive breakpoints properly defined. All of this for one picture! Not thanks. Nuxt Image will simplify this process and save us time.
@@ -101,8 +101,13 @@
 
 <script>
 export default {
+
 }
 </script>
 
 <style lang="css" scoped>
+.body {
+  max-width: 800px;
+  margin: 0 auto;
+}
 </style>
