@@ -61,11 +61,11 @@
     </div>
     <div class="flex md:flex-row flex-col items-center justify-center">
       <div class="w-full md:w-1/2 md:p-8 mb-4 md:mb-0 flex flex-col items-center justify-center">
-        <nuxt-img src="/lightHouseBad.png" alt="lighthouse" class="w-3/4" sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"/>
+        <nuxt-img src="/lighthouseBad.png" alt="lighthouse" class="w-3/4" sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"/>
         <p class="text-center text-xs text-gray-600 mt-2">Lighthouse report for app NOT using Nuxt-Image</p>
       </div>
       <div class="w-full md:w-1/2 md:p-8 mb-4 md:mb-0 flex flex-col items-center justify-center">
-        <nuxt-img src="/lightHouseGood.png" alt="lighthouse" class="w-3/4" sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"/>
+        <nuxt-img src="/lighthouseGood.png" alt="lighthouse" class="w-3/4" sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"/>
         <p class="text-center text-xs text-gray-600 mt-2">Lighthouse report for app using Nuxt-Image</p>
       </div>
     </div>
@@ -74,11 +74,11 @@
     </div>
     <div class="flex md:flex-row flex-col items-center justify-center mb-6">
       <div class="md:w-1/2 md:p-8 mb-4 md:mb-0 flex flex-col items-center justify-center">
-        <nuxt-img src="/lightHouse2Bad.png" alt="lighthouse" class="w-3/4" sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"/>
+        <nuxt-img src="/lighthouse2Bad.png" alt="lighthouse" class="w-3/4" sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"/>
         <p class="text-center text-xs text-gray-600 mt-2">Lighthouse report for app NOT using Nuxt-Image</p>
       </div>
       <div class="md:w-1/2 md:p-8 mb-4 md:mb-0 flex flex-col items-center justify-center">
-        <nuxt-img src="/lightHouse2Good.png" alt="lighthouse" class="w-3/4" sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"/>
+        <nuxt-img src="/lighthouse2Good.png" alt="lighthouse" class="w-3/4" sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"/>
         <p class="text-center text-xs text-gray-600 mt-2">Lighthouse report for app using Nuxt-Image</p>
       </div>
     </div>
