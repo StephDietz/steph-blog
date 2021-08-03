@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="body leading-relaxed pt-16 pb-16 md:pb-24">
+  <div class="body leading-relaxed pt-16 pb-16 md:pb-24 px-6 md:px-0">
     <div class="w-full flex flex-col items-center justify-center border-b mb-8">
       <h1 class="font-bold text-5xl text-center mb-6">Optimize your images with Nuxt Image</h1>
       <p class="md:w-2/3 pb-16 text-center">Nuxt image handles the hard parts of optimizing assets through an intuitive interface. Let's learn how to use it!</p>
