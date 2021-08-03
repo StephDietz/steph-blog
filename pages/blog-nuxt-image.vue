@@ -15,11 +15,11 @@
     </div>
     <h2 class="font-bold text-xl mb-6">What is Nuxt?</h2>
     <div class="mb-6">
-      Nuxt is a frontend framework built on top of Vue. Why use Nuxt over Vue? Nuxt offers many features that would be complex to achieve with plain Vue, including: server-side rendering tot improve SEO, automatically generated routes, and automatic code splitting with pre-rendered pages, just to name a few. Nuxt is a powerful framework that makes developing apps easier.  If your project requires these features, Nuxt will be an excellent choice.
+      <a href="https://image.nuxtjs.org/components/nuxt-img/" target="_blank" class="text-blue-500 underline">Nuxt</a> is a frontend framework built on top of Vue. Why use Nuxt over Vue? Nuxt offers many features that would be complex to achieve with plain Vue, including: server-side rendering to improve SEO, automatically generated routes, and automatic code splitting with pre-rendered pages, just to name a few. Nuxt is a powerful framework that makes developing apps easier. Nuxt can do everything Vue can do and more, making it an excellent choice for most web apps.
     </div>
     <h2 class="font-bold text-xl mb-6">Nuxt Image</h2>
     <div class="mb-6">
-      Nuxt Image is a plug-and-play image optimization module for Nuxt apps. It handles the difficult parts of image optimization, providing an intuitive interface for transforming and optimizing assets. The image module comes with two components: nuxt-img and nuxt-picture, which are drop-in replacements for their native counterparts, <code class="p-1 rounded-md bg-gray-200 font-mono text-sm">&lt;img&gt;</code> and <code class="p-1 rounded-md bg-gray-200 font-mono text-sm">&lt;picture&gt;</code>. One advantage of these components is they don’t output any unexpected markup while serving your images.
+      <a href="https://image.nuxtjs.org/components/nuxt-img/" target="_blank" class="text-blue-500 underline">Nuxt Image</a> is a plug-and-play image optimization module for Nuxt apps. It handles the difficult parts of image optimization, providing an intuitive interface for transforming and optimizing assets. The image module comes with two components: nuxt-img and nuxt-picture, which are drop-in replacements for their native counterparts, <code class="p-1 rounded-md bg-gray-200 font-mono text-sm">&lt;img&gt;</code> and <code class="p-1 rounded-md bg-gray-200 font-mono text-sm">&lt;picture&gt;</code>. One advantage of these components is they don’t output any unexpected markup while serving your images.
     </div>
     <h2 class="font-bold text-xl mb-6">The Problem</h2>
     <div class="mb-6">
@@ -30,7 +30,7 @@
     </div>
     <h2 class="font-bold text-xl mb-6">The Solution</h2>
     <div class="mb-6">
-      With Nuxt image, all we need to do is add our image using the nuxt-image component. <code class="p-1 rounded-md bg-gray-200 font-mono text-sm">&lt;nuxt-img&gt;</code> outputs a native <code class="p-1 rounded-md bg-gray-200 font-mono text-sm">&lt;img&gt;</code> tag directly and can be used just like we would use a normal <code class="p-1 rounded-md bg-gray-200 font-mono text-sm">&lt;img&gt;</code> tag. To optimize our image in the above scenario, all we need to do is:
+      With Nuxt Image, all we need to do is add our image using the nuxt-image component. <code class="p-1 rounded-md bg-gray-200 font-mono text-sm">&lt;nuxt-img&gt;</code> outputs a native <code class="p-1 rounded-md bg-gray-200 font-mono text-sm">&lt;img&gt;</code> tag directly and can be used just like we would use a normal <code class="p-1 rounded-md bg-gray-200 font-mono text-sm">&lt;img&gt;</code> tag. To optimize our image in the above scenario, all we need to do is:
     </div>
     <div class="p-1 rounded-md bg-gray-200 font-mono text-sm w-full p-6 tracking-wide leading-relaxed mb-6">
       &lt;nuxt-img<br>
