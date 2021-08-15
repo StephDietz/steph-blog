@@ -79,6 +79,7 @@ export default {
         {name: 'Videos', path: 'videos'}
       ],
       recents: [
+        {src: '/petite-vue.webp', title: 'Vue vs petite-vue', description: 'petite-vue is a lightweight Vue alternative that can be “sprinkled” over your project requiring no extra bundling steps or build processes. Let\'s learn how to use it and compare it to standart Vue!', link: '/blog-petite-vue', datePublished: 'Aug 15th 2021'},
         {src: '/nuxt-img-YT.png', title: 'Optimizing Images in my Nuxt/Vue Blog!', description: 'In this video, we will learn how to use Nuxt Image in a Nuxt app (and deploy it with Vercel!)', link: 'https://youtu.be/ZRUhUZrTA2o', datePublished: 'Aug 3rd 2021'},
         {src: '/nuxt-img.png', title: 'Optimize your images with Nuxt Image', description: 'Nuxt image handles the hard parts of transforming and optimizing assets through an intuitive interface. Let\'s learn how to use it!', link: '/blog-nuxt-image', datePublished: 'Aug 2nd 2021'},
         {src: '/vercel.png', title: 'Deploy a Vue, Vite, and Tailwind project to Vercel', description: 'Learn how to set up your Vue, Vite, and Tailwind project and deploy it instantly on Vercel.', link: 'https://vercel.com/guides/vue-vite-tailwind', datePublished: 'July 11th 2021'},
