@@ -6,7 +6,7 @@
         <p class="mb-2 text-lg">Most Recent</p>
         <div class="boxShadow w-8 h-1 bg-black ml-1"></div>
       </div> -->
-      <iframe height="315" class="w-full md:w-8/12" src="https://www.youtube.com/embed/ZRUhUZrTA2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe height="315" class="w-full md:w-8/12" src="https://www.youtube.com/embed/Y_g5-7NKp0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="w-full">
       <div class="font-semibold my-10">
@@ -29,6 +29,7 @@ export default {
   data() {
     return {
       videos: [
+        {src: '/petite-vue.jpg', title: 'Building YouTube Search with Petite Vue! (5kb Vue Alternative)', description: 'petite-vue is a new lightweight framework that provides the same template syntax and reactivity mental model with standard Vue. In this tutorial I\'ll explain what petite-vue is, how to use it, and finally create a YouTube search app with it!', link: 'https://youtu.be/Y_g5-7NKp0A', datePublished: 'Aug 15th 2021'},
         {src: '/nuxt-img-YT.png', title: 'Optimizing Images in my Nuxt/Vue Blog!', description: 'In this video, we will learn how to use Nuxt Image in a Nuxt app (and deploy it with Vercel!)', link: 'https://youtu.be/ZRUhUZrTA2o', datePublished: 'Aug 3rd 2021'},
         {src: '/youtube.png', title: 'Set up a new Vue 3 project with Vite and Tailwind (Deploy to Vercel!)', description: 'Learn how to create a new Vue 3 project with Vite, install Tailwind, and deploy our project to Vercel! I’ll take you through every step from start to finish.', link: 'https://www.youtube.com/watch?v=ftT8nHHCZrI&t=2s', datePublished: 'July 20th 2021'},
         {src: '/pinterestClone.jpg', title: 'Build a Pinterest clone with vue.js and tailwind.css', description: 'Learn how to use tailwind.css and vue.js to build a Pinterest clone!', link: 'https://youtu.be/aL28CSfKIww', datePublished: 'May 19th 2021'},

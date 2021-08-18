@@ -28,7 +28,7 @@
     <div class="mb-4">
       While standard Vue can be used with or without a build step, the optimal usage involves a build setup making it better suited when building SPAs or apps with heavy interactions. Using standard Vue without a build step actively opts you out of: the Vue CLI, single file components, and smaller/more optimized bundles. So while a buildless implementation of standard Vue is possible, it provides a less optimal developer experience. petite-vue, on the other hand, requires no extra bundling steps or build processes. Since petite-vue was built to sprinkle interactions throughout a project rather than using heavy interactions, the CLI and SFCs are not necessary. To get started with petite-vue  you simply load it from a CDN:
     </div>
-    <code class="p-1 rounded-md bg-gray-200 font-mono text-sm">&lt;script src="https://unpkg.com/petite-vue" defer init&gt;&lt;/script&gt;</code>
+    <div class="p-1 whitespace-nowrap overflow-auto rounded-md bg-gray-200 font-mono text-sm">&lt;script src="https://unpkg.com/petite-vue" defer init&gt;&lt;/script&gt;</div>
     <h3 class="font-bold my-6">No virtual DOM</h3>
     <div class="mb-6">
       Unlike Vue and most other frontend frameworks, petite-vue does not use the <a href="https://programmingwithmosh.com/react/react-virtual-dom-explained/" target="_blank" class="text-blue-500 underline">virtual DOM</a>, but rather it mutates the DOM in place. Standard Vue pre-compiles all the templates, eliminating the need for template processing at runtime. As mentioned earlier, standard Vue can be used without a build step, but it is not optimal as it creates a large overhead. By navigating the existing DOM and mutating it directly, petite-vue avoids all this overhead. In other words, the DOM is the template, making petite-vue much more efficient in progressive enhancement scenarios.
@@ -41,11 +41,11 @@
     <div class="mb-4">
       So now let's go over how to use petite-vue in a project! First, we have to add it to our project. We can do this by loading it from a CDN:
     </div>
-    <code class="p-1 rounded-md bg-gray-200 font-mono text-sm">&lt;script src="https://unpkg.com/petite-vue" defer init&gt;&lt;/script&gt;</code>
+    <div class="p-1 whitespace-nowrap overflow-auto rounded-md bg-gray-200 font-mono text-sm">&lt;script src="https://unpkg.com/petite-vue" defer init&gt;&lt;/script&gt;</div>
     <div class="my-4">
       In the above line of code, the <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">defer</span> attribute makes the script execute after HTML content is parsed, while the <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">init</span> attribute tells petite-vue to automatically query and initialize all elements that are using petite-vue on the page. How do we communicate which elements are using petite-vue? Great question! We simply add v-scope to the element. Let’s look at an example.
     </div>
-    <div class="p-1 rounded-md bg-gray-200 font-mono text-sm w-full p-6 tracking-wide leading-relaxed mb-6">
+    <div class="whitespace-nowrap overflow-auto flex-none overflow-x-scroll p-1 rounded-md bg-gray-200 font-mono text-sm w-full p-6 tracking-wide leading-relaxed mb-6">
       &lt;script src="https://unpkg.com/petite-vue" defer init&gt;&lt;/script&gt;</br>
       &lt;!-- anywhere on the page --&gt;</br>
       &lt;div v-scope="{ count: 0 }"&gt;</br>
@@ -59,7 +59,7 @@
     <div class="mb-4">
       Alternatively, if you don’t want to auto <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">init</span>, remove the <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">init</span> attribute and move the scripts to the end of  <code>&lt;body&gt;</code>, we can use the ES module build. ES modules are javascript files using <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">import</span> and <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">export</span> statements that are loaded using scripts with <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">type=”module”</span>. In contrast to classic scripts, variables declared inside modules are scoped to the file itself. Using this method, we will import the <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">createApp</span> function from petite-vue, which accepts a data object that serves as the root scope for all expressions. To create the same counter button as before using this method, the code would look like this:
     </div>
-    <div class="p-1 rounded-md bg-gray-200 font-mono text-sm w-full p-6 tracking-wide leading-relaxed mb-6">
+    <div class="p-1 whitespace-nowrap overflow-auto rounded-md bg-gray-200 font-mono text-sm w-full p-6 tracking-wide leading-relaxed mb-6">
       <span>&lt;script type="module"&gt;</span></br>
       <span>import { createApp } from 'https://unpkg.com/petite-vue?module'</span></br>
       <span>createApp({</span></br>
@@ -102,33 +102,33 @@
     <h2 class="font-bold text-xl mb-6">Supported:</h2>
     <div class=" ml-12">
       <ul class="list-disc">
-        <li>text bindings</li>
-        <li>v-bind and : : class and style special handling</li>
-        <li>v-on and @ : event handling</li>
-        <li>v-model: represents all inputs types and non-string :value bindings</li>
-        <li>v-if / v-else  / v-else-if</li>
-        <li>v-for</li>
-        <li>v-show</li>
-        <li>v-hmtl</li>
-        <li>v-pre</li>
-        <li>v-once</li>
-        <li>v-cloak</li>
-        <li>reactive()</li>
-        <li>nextTick()</li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">{{ brackets }}</span>: text bindings</li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">v-bind</span> and <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">:</span>: class and style special handling</li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">v-on</span> and <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">@</span>: event handling</li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">v-model</span>: represents all inputs types and non-string :value bindings</li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">v-if</span> / <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">v-else</span>  / <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">v-else-if</span></li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">v-for</span></li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">v-show</span></li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">v-hmtl</span></li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">v-pre</span></li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">v-once</span></li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">v-cloak</span></li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">reactive()</span></li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">nextTick()</span></li>
         <li>Template refs</li>
       </ul>
     </div>
     <h2 class="font-bold text-xl my-6">Not Supported:</h2>
     <div class=" ml-12">
       <ul class="list-disc">
-        <li>ref() and computed()</li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">ref()</span> and <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">computed()</span></li>
         <li>Render functions:petite-vue has no virtual DOM</li>
-        <li>Reactivity for collection types: Map, Set, etc.</li>
-        <li>Transition, keep-alive, &lt;teleport&gt;, and &lt;suspense&gt; components</li>
-        <li>v-for: deep destructure</li>
-        <li>v-on="object"</li>
-        <li>v-is and &lt;component :is="newComponent&gt;></li>
-        <li>v-bind:style auto-prefixing</li>
+        <li>Reactivity for collection types: <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">Map</span>, <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">Set</span>, etc.</li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">Transition</span>, <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">keep-alive</span>, <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">&lt;teleport&gt;</span>, and <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">&lt;suspense&gt;</span> components</li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">v-for</span>: deep destructure</li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">v-on="object"</span></li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">v-is</span> and <span class="p-1 rounded-md bg-gray-200 font-mono text-sm">&lt;component :is="newComponent&gt;</span></li>
+        <li><span class="p-1 rounded-md bg-gray-200 font-mono text-sm">v-bind:style</span> auto-prefixing</li>
 
       </ul>
     </div>
@@ -158,6 +158,11 @@
 
 <script>
 export default {
+  data() {
+    return {
+      brackets: '{{}}'
+    }
+  },
   methods: {
     scrollMeTo(refName) {
       var element = this.$refs[refName];
