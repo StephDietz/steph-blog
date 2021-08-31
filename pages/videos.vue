@@ -29,6 +29,7 @@ export default {
   data() {
     return {
       videos: [
+        {type: 'video', src: '/svelteVsVue.png', title: 'Svelte vs Vue: A Svelte crash course and analysis', description: 'A quick but complete look at how to use Svelte and how it compares to Vue! I  build a simple game app with Svelte and do a side-by-side comparison with Vue along the way.', link: 'https://youtu.be/JtQkCbUGPgA', datePublished: 'Aug 31st 2021'},
         {src: '/petite-vue.jpg', title: 'Building YouTube Search with Petite Vue! (5kb Vue Alternative)', description: 'petite-vue is a new lightweight framework that provides the same template syntax and reactivity mental model with standard Vue. In this tutorial I\'ll explain what petite-vue is, how to use it, and finally create a YouTube search app with it!', link: 'https://youtu.be/Y_g5-7NKp0A', datePublished: 'Aug 15th 2021'},
         {src: '/nuxt-img-YT.png', title: 'Optimizing Images in my Nuxt/Vue Blog!', description: 'In this video, we will learn how to use Nuxt Image in a Nuxt app (and deploy it with Vercel!)', link: 'https://youtu.be/ZRUhUZrTA2o', datePublished: 'Aug 3rd 2021'},
         {src: '/youtube.png', title: 'Set up a new Vue 3 project with Vite and Tailwind (Deploy to Vercel!)', description: 'Learn how to create a new Vue 3 project with Vite, install Tailwind, and deploy our project to Vercel! I’ll take you through every step from start to finish.', link: 'https://www.youtube.com/watch?v=ftT8nHHCZrI&t=2s', datePublished: 'July 20th 2021'},
