@@ -11,8 +11,8 @@
       <div class="p-4">
         <h1 class="clamp-2 font-bold h-10 mb-1 leading-tight"> {{ item.title }} </h1>
         <h2 class="clamp-3 h-12 text-sm leading-tight"> {{ item.description }} </h2>
-        <div class="flex justify-end text-xs font-medium my-2">
-          {{ item.datePublished }}
+        <div class="flex justify-between items-center text-xs font-medium my-3">
+          <div :class="`bg-gray-300 rounded-full px-3 py-1`">{{type}}</div><div>{{ item.datePublished }}</div>
         </div>
       </div>
     </div>
@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  props: ['item', 'index']
+  props: ['item', 'index', 'type']
 }
 </script>
 

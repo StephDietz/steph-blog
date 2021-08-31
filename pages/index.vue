@@ -59,7 +59,7 @@
       <div class="grid gap-5 grid-cols-1 md:grid-cols-3">
         <div v-for="(recent, index) in recents" :key="index" class="">
           <div class="bg-gray-50 hover:shadow-lg shadow-md w-full">
-            <contentCard :item="recent" :index="index" class="w-full"/>
+            <contentCard :item="recent" :index="index" :type="recent.type" class="w-full"/>
           </div>
         </div>
       </div>
@@ -79,12 +79,12 @@ export default {
         {name: 'Videos', path: 'videos'}
       ],
       recents: [
-        {src: '/petite-vue.jpg', title: 'Building YouTube Search with Petite Vue! (5kb Vue Alternative)', description: 'petite-vue is a new lightweight framework that provides the same template syntax and reactivity mental model with standard Vue. In this tutorial I\'ll explain what petite-vue is, how to use it, and finally create a YouTube search app with it!', link: 'https://youtu.be/Y_g5-7NKp0A', datePublished: 'Aug 15th 2021'},
-        {src: '/petite-vue.webp', title: 'Vue vs petite-vue', description: 'petite-vue is a lightweight Vue alternative that can be “sprinkled” over your project requiring no extra bundling steps or build processes. Let\'s learn how to use it and compare it to standart Vue!', link: '/blog-petite-vue', datePublished: 'Aug 15th 2021'},
-        {src: '/nuxt-img-YT.png', title: 'Optimizing Images in my Nuxt/Vue Blog!', description: 'In this video, we will learn how to use Nuxt Image in a Nuxt app (and deploy it with Vercel!)', link: 'https://youtu.be/ZRUhUZrTA2o', datePublished: 'Aug 3rd 2021'},
-        {src: '/nuxt-img.png', title: 'Optimize your images with Nuxt Image', description: 'Nuxt image handles the hard parts of transforming and optimizing assets through an intuitive interface. Let\'s learn how to use it!', link: '/blog-nuxt-image', datePublished: 'Aug 2nd 2021'},
-        {src: '/vercel.png', title: 'Deploy a Vue, Vite, and Tailwind project to Vercel', description: 'Learn how to set up your Vue, Vite, and Tailwind project and deploy it instantly on Vercel.', link: 'https://vercel.com/guides/vue-vite-tailwind', datePublished: 'July 11th 2021'},
-        {src: '/youtube.png', title: 'Set up a new Vue 3 project with Vite and Tailwind (Deploy to Vercel!)', description: 'Learn how to create a new Vue 3 project with Vite, install Tailwind, and deploy our project to Vercel! I’ll take you through every step from start to finish.', link: 'https://www.youtube.com/watch?v=ftT8nHHCZrI&t=2s', datePublished: 'July 20th 2021'},
+        {type: 'blog', src: '/vueVsSvelte.jpg', title: 'Svelte vs Vue', description: 'A side-by-side comparison of Vue and Svelte!', link: '/blog-svelte-vs-vue', datePublished: 'Aug 30th 2021'},
+        {type: 'video', src: '/petite-vue.jpg', title: 'Building YouTube Search with Petite Vue! (5kb Vue Alternative)', description: 'petite-vue is a new lightweight framework that provides the same template syntax and reactivity mental model with standard Vue. In this tutorial I\'ll explain what petite-vue is, how to use it, and finally create a YouTube search app with it!', link: 'https://youtu.be/Y_g5-7NKp0A', datePublished: 'Aug 15th 2021'},
+        {type: 'blog', src: '/petite-vue.webp', title: 'Vue vs petite-vue', description: 'petite-vue is a lightweight Vue alternative that can be “sprinkled” over your project requiring no extra bundling steps or build processes. Let\'s learn how to use it and compare it to standart Vue!', link: '/blog-petite-vue', datePublished: 'Aug 15th 2021'},
+        {type: 'video', src: '/nuxt-img-YT.png', title: 'Optimizing Images in my Nuxt/Vue Blog!', description: 'In this video, we will learn how to use Nuxt Image in a Nuxt app (and deploy it with Vercel!)', link: 'https://youtu.be/ZRUhUZrTA2o', datePublished: 'Aug 3rd 2021'},
+        {type: 'blog', src: '/nuxt-img.png', title: 'Optimize your images with Nuxt Image', description: 'Nuxt image handles the hard parts of transforming and optimizing assets through an intuitive interface. Let\'s learn how to use it!', link: '/blog-nuxt-image', datePublished: 'Aug 2nd 2021'},
+        {type: 'blog', src: '/vercel.png', title: 'Deploy a Vue, Vite, and Tailwind project to Vercel', description: 'Learn how to set up your Vue, Vite, and Tailwind project and deploy it instantly on Vercel.', link: 'https://vercel.com/guides/vue-vite-tailwind', datePublished: 'July 11th 2021'},
       ]
     }
   }
