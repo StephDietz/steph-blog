@@ -79,12 +79,12 @@ export default {
         {name: 'Videos', path: 'videos'}
       ],
       recents: [
+        {type: 'blog', src: '/svelte-kit.png', title: 'Intro to SvelteKit: A Beginner’s Guide', description: 'This is a beginner friendly guide that covers all the basics of SvelteKit', link: '/blog-intro-to-sveltekit', datePublished: 'Sept 17th 2021'},
+        {type: 'video', src: '/sveltekit-itunes.png', title: 'Intro to SvelteKit: Build an iTunes Search App!', description: 'Learn how to build an iTunes search app using SvelteKit! This is a beginner friendly tutorial that covers all the basics!', link: 'https://youtu.be/uC6y59y4V4w', datePublished: 'Sept 15th 2021'},
         {type: 'video', src: '/svelteVsVue.png', title: 'Svelte vs Vue: A Svelte crash course and analysis', description: 'A quick but complete look at how to use Svelte and how it compares to Vue! I  build a simple game app with Svelte and do a side-by-side comparison with Vue along the way.', link: 'https://youtu.be/JtQkCbUGPgA', datePublished: 'Aug 31st 2021'},
         {type: 'blog', src: '/vueVsSvelte.jpg', title: 'Svelte vs Vue', description: 'A side-by-side comparison of Vue and Svelte!', link: '/blog-svelte-vs-vue', datePublished: 'Aug 30th 2021'},
         {type: 'video', src: '/petite-vue.jpg', title: 'Building YouTube Search with Petite Vue! (5kb Vue Alternative)', description: 'petite-vue is a new lightweight framework that provides the same template syntax and reactivity mental model with standard Vue. In this tutorial I\'ll explain what petite-vue is, how to use it, and finally create a YouTube search app with it!', link: 'https://youtu.be/Y_g5-7NKp0A', datePublished: 'Aug 15th 2021'},
         {type: 'blog', src: '/petite-vue.webp', title: 'Vue vs petite-vue', description: 'petite-vue is a lightweight Vue alternative that can be “sprinkled” over your project requiring no extra bundling steps or build processes. Let\'s learn how to use it and compare it to standart Vue!', link: '/blog-petite-vue', datePublished: 'Aug 15th 2021'},
-        {type: 'video', src: '/nuxt-img-YT.png', title: 'Optimizing Images in my Nuxt/Vue Blog!', description: 'In this video, we will learn how to use Nuxt Image in a Nuxt app (and deploy it with Vercel!)', link: 'https://youtu.be/ZRUhUZrTA2o', datePublished: 'Aug 3rd 2021'},
-        {type: 'blog', src: '/nuxt-img.png', title: 'Optimize your images with Nuxt Image', description: 'Nuxt image handles the hard parts of transforming and optimizing assets through an intuitive interface. Let\'s learn how to use it!', link: '/blog-nuxt-image', datePublished: 'Aug 2nd 2021'},
       ]
     }
   }
