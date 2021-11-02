@@ -41,7 +41,11 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxt/image',
+    '@nuxtjs/google-adsense'
   ],
+  'google-adsense': {
+      id: 'ca-pub-7551683846499158'
+    }
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
