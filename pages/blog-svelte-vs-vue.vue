@@ -245,6 +245,15 @@ export default {
         {
           name: 'Svelte',
           code: `<span>&lt;script&gt;</span></br>
+                <span class="ml-4">let text = 'World'</span></br>
+                <span class="">&lt;/script&gt;</span></br>
+                <span>&lt;div&gt;</span></br>
+                <span class="ml-4">&lt;h1&gt; Hello, { text }! &lt;/h1&gt;</span></br>
+                <span class="">&lt;/div&gt;</span></br>`
+        },
+        {
+          name: 'Vue',
+          code: `<span>&lt;script&gt;</span></br>
                 <span class="ml-4">export default {</span></br>
                 <span class="ml-8">data() {</span></br>
                 <span class="ml-12">return {</span></br>
@@ -256,15 +265,6 @@ export default {
                 <span class="">&lt;/script&gt;</span></br>
                 <span>&lt;div&gt;</span></br>
                 <span class="ml-4">&lt;h1&gt; Hello, {{ text }}! &lt;/h1&gt;</span></br>
-                <span class="">&lt;/div&gt;</span></br>`
-        },
-        {
-          name: 'Vue',
-          code: `<span>&lt;script&gt;</span></br>
-                <span class="ml-4">let text = 'World'</span></br>
-                <span class="">&lt;/script&gt;</span></br>
-                <span>&lt;div&gt;</span></br>
-                <span class="ml-4">&lt;h1&gt; Hello, { text }! &lt;/h1&gt;</span></br>
                 <span class="">&lt;/div&gt;</span></br>`
         }
       ],
