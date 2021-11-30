@@ -17,7 +17,7 @@
         I'm a Baylor grad with a BS in Biochem, but my interest in solving problemas and creating lead me to become a software developer. I work with startups to help create beautiful interfaces, and recently began creating content to expand my knowledge and help build yours!
       </div>
       <div class="">
-        I'm always trying to expand my skillset, and beleive the best way to learn is through doing and teaching. Follow me on my journey as I share all the tips and tricks I pick up along the way!
+        I'm always trying to expand my skillset, and believe the best way to learn is through doing and teaching. Follow me on my journey as I share all the tips and tricks I pick up along the way!
       </div>
     </div>
     <!-- <div class="w-1/2 pl-8">
